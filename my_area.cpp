@@ -1,5 +1,7 @@
 #include <stdio.h>
-#include namespace std;
+#include <iostream>
+
+using namespace std;
 
 int main ()
 	int op
@@ -16,4 +18,9 @@ int main ()
 			cin>>lado;
 			cout<<"el area del cuadrado es: " <<lado*lado;
 			break;
-		case 2 
+		case 2 :cout<< "ingrese la base del triangulo \n" ;
+			cin>>base;
+			cout<< "ingrese la altura dek triangulo \n" ;
+			cin>>altura;
+			cout<<"El area del triangulo es: "<<base*altura/2;
+			break;
