@@ -9,6 +9,7 @@ int main ()
 	cout<<"1. Calcular el area de un cuadrado" << endl;
 	cout<<"2. Calcular el area de un triangulo" <<endl;
 	cout<<"3. Calcular el area de un circulo" <<endl;
+	cout<<" Nombre: Fabian camilo Yara mujica " <<endl;
 	cout<<endl;
 	cout<<"elija una opcion"<<endl;
 	cin>>op;
