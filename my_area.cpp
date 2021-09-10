@@ -4,6 +4,7 @@
 using namespace std;
 
 int main ()
+{
 	int op
 	cout<<"1. Calcular el area de un cuadrado" << endl;
 	cout<<"2. Calcular el area de un triangulo" <<endl;
@@ -24,3 +25,9 @@ int main ()
 			cin>>altura;
 			cout<<"El area del triangulo es: "<<base*altura/2;
 			break;
+		case 3 :cout<<"Ingrese el Radio del Circulo \n ";
+			cin>>radio;
+			cout<<"El area del circulo es  : " <<3.1416*(radio*radio);
+	}
+return 0;
+}
