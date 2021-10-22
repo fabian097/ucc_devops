@@ -80,3 +80,11 @@ int main() {
 	cout << "La area es => " << vf_area << endl; 
 
 
+	//Archivo Funcion
+	//a vf_area calcular raiz cuadrada en una variable e imprimir el resultado
+	b=sqrt(vf_area);
+	cout<< "la raiz cuadrada es "<<b<< endl;
+
+	return 0;
+}
+
